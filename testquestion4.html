@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>  
+    <meta charset="UTF-8">
+
+<title>factorial of number</title>  
+</head>  
+<body>  
+  <h1>factorial</h1>
+  <h2>see console</h2>
+  <script>
+  
+  function factorial(n){
+    
+    if(n == 0 || n == 1){
+        return 1;
+    
+    }else{
+        return n * factorial(n-1);
+    }
+}
+let n = prompt("enter number");
+answer = factorial(n)
+console.log("The factorial of " + n + " is " + answer);
+</script>  
+</body>  
+</html>  
